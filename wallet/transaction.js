@@ -15,7 +15,7 @@ class Transaction {
             return;
         }
 
-        transaction.outputs.push(... [
+        transaction.outputs.push(...[
             { amount: senderWallet.balance - amount, address: senderWallet.publicKey },
             { amount, address: recipient }
         ])
