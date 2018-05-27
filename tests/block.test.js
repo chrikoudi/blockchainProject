@@ -1,4 +1,4 @@
-const Block = require('../block');
+const Block = require('../blockchain/block');
 const { DIFFICULTY, MINE_RATE } = require('../config');
 
 describe('Block', () => {
