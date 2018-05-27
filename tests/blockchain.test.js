@@ -1,5 +1,5 @@
 const Blockchain = require('../blockchain/index');
-const Block = require('../blockchain/index');
+const Block = require('../blockchain/block');
 
 describe('Blockchain', () => {
     let bc, bc2;
